@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="title">Authentication form</h1>
+    <br />
+    <button id="register">Register</button>
+    <button id="logIn">Log in</button>
+    <br />
+    <div id="log-in-form" style="display: none">
+      <form>
+        <label for="username1">Username</label>
+        <input type="text" name="username" id="username1" />
+        <label for="password1">Password</label>
+        <input type="text" name="password" id="password1" />
+        <button id="logIn-btn">Submit</button>
+      </form>
+    </div>
+    <div id="register-form" style="display: none">
+      <form>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" />
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" />
+        <label for="password">Password</label>
+        <input type="text" name="password" id="password" />
+        <label for="age">Age</label>
+        <input type="text" name="age" id="age" />
+        <button id="register-btn">Sumbit</button>
+      </form>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

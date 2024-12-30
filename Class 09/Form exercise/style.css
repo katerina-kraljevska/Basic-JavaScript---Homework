@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#register {
+  width: 100px;
+  height: 50px;
+  margin: auto 0;
+  background-color: cornflowerblue;
+}
+
+#logIn {
+  width: 100px;
+  height: 50px;
+  margin: auto 0;
+  background-color: cornflowerblue;
+}
